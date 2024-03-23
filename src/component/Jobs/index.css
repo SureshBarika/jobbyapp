@@ -1,0 +1,174 @@
+.jobs-main-cont {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.jobs-view-cont {
+  display: flex;
+  padding: 10px 20px;
+}
+.left-cont {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+@media Screen and (max-width: 576px) {
+  .jobs-view-cont {
+    flex-direction: column;
+  }
+  .left-cont {
+    width: 100%;
+  }
+}
+
+.line {
+  border: 2px solid #cbd5e1;
+  margin: 15px 0px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.filters-hed {
+  color: #fff;
+}
+
+.jobs-filter-cont {
+  width: 100%;
+}
+
+.jobs-filter {
+  list-style-type: none;
+  padding: 5px;
+  padding-left: 5px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.filter-name {
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.right-cont {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .right-cont {
+    width: 100%;
+  }
+}
+
+.pc-input-cont {
+  border: 1px solid #b6c5ff;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.mb-input-cont {
+  border: 1px solid #b6c5ff;
+  border-radius: 5px;
+  position: absolute;
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .pc-input-cont {
+    display: none;
+  }
+
+  .mb-input-cont {
+    display: block;
+  }
+}
+
+.input-search {
+  border: 0px;
+  background-color: transparent;
+  outline: none;
+  padding: 5px;
+  width: 250px;
+  color: #cbd5e1;
+}
+
+.search-btn {
+  background-color: #64748b;
+  border: 0px;
+  outline: none;
+  height: 100%;
+  padding: 5px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.loader-container {
+  margin-top: 40%;
+  margin-left: 50%;
+}
+.jobs-list-cont {
+  width: 100%;
+}
+
+.job-list-failure-view-cont {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-img {
+  width: 90%;
+  margin-top: 40px;
+}
+
+.fail-hed {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.fail-pera {
+  margin: 10px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .fail-hed {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .fail-pera {
+    text-align: center;
+  }
+  .failure-view-img {
+    margin-top: 10px;
+  }
+}
+
+.jobs-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+  padding-left: 5px;
+  margin-top: 40px;
+}
+
+.input-filter {
+  cursor: pointer;
+}

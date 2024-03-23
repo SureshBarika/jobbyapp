@@ -1,0 +1,21 @@
+.skill-img {
+  height: 50px;
+  margin-right: 4px;
+}
+
+.skill {
+  display: flex;
+
+  margin: 10px;
+  align-items: center;
+  width: 150px;
+}
+@media screen and (max-width: 576px) {
+  .skill-img {
+    height: 30px;
+  }
+
+  .skill {
+    width: 100px;
+  }
+}

@@ -1,0 +1,19 @@
+.similar-hed {
+  color: #fff;
+  margin: 10px 0px;
+}
+
+.similar-item {
+  margin: 10px;
+  background-color: #7e858e70;
+  padding: 20px 10px;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .similar-item {
+    width: 100%;
+  }
+}

@@ -1,0 +1,88 @@
+.header-cont {
+}
+.header-web-logo {
+  height: 50px;
+  cursor: pointer;
+}
+
+.tabs-cont {
+  display: flex;
+  list-style-type: none;
+}
+
+.header-pc-view {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #272727;
+}
+
+.header-mb-view {
+  width: 100%;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #272727;
+}
+
+.tab {
+  color: #fff;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.tab-mb {
+  color: #fff;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.login-btns {
+  background-color: #4f46e5;
+  padding: 10px 15px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.tabs-mb-cont {
+  display: flex;
+  align-items: center;
+}
+
+.mb-btns {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+}
+
+@media screen and (width <= 576px) {
+  .header-pc-view {
+    display: none;
+  }
+
+  .header-mb-view {
+    display: flex;
+  }
+
+  .header-web-logo {
+    height: 30px;
+  }
+}
